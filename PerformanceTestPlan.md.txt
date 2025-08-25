@@ -1,0 +1,25 @@
+
+
+Objective:
+To evaluate the performance, scalability, and reliability of the application under different loads.
+
+Scope:
+- Measure response time of critical workflows (Login, Product Search, Checkout, API calls).
+- Stress test APIs using JMeter / Postman.
+- Analyze bottlenecks in UI Automation using Selenium with parallel execution (TestNG).
+
+Tools:
+- Apache JMeter
+- Selenium Grid
+- Postman (Collection Runner / Newman)
+
+Key Metrics
+- Response Time
+- Throughput
+- Error Rate
+- CPU & Memory Usage
+
+Scenarios
+1. Login with 100 virtual users.
+2. Search products with increasing load.
+3. API `/employees` under stress (500+ requests/sec).

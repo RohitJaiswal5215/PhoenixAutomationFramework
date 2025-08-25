@@ -1,0 +1,8 @@
+com\orangehrm\pages\AddEmployeePage.class
+com\orangehrm\pages\DashboardPage.class
+com\orangehrm\pages\LoginPage.class
+com\orangehrm\tests\EmployeeTest.class
+com\orangehrm\utils\TestUtils.class
+com\orangehrm\tests\LoginTest.class
+com\orangehrm\pages\EmployeeListPage.class
+com\orangehrm\base\BaseTest.class

@@ -1,0 +1,27 @@
+Security Test Plan
+
+Objective:
+To ensure the application is secure against vulnerabilities and meets standard security practices.
+
+Scope:
+- Web application security (UI).
+- API security validation.
+- Authentication & Authorization checks.
+
+Tools:
+- OWASP ZAP
+- Postman (for API auth testing)
+- Burp Suite (manual security testing)
+
+Key Areas:
+1. SQL Injection
+2. XSS (Cross-Site Scripting)
+3. Authentication bypass
+4. API authorization testing
+5. Sensitive data exposure
+
+Scenarios:
+- Verify login is secured with HTTPS.
+- Validate API tokens and expired sessions.
+- Test password reset with invalid inputs.
+- Ensure no sensitive data is exposed in responses.
