@@ -11,15 +11,15 @@ Scope:
 Tools:
 - Apache JMeter
 - Selenium Grid
-- Postman (Collection Runner / Newman)
+- Postman (Collection Runner)
 
-Key Metrics
+Key Metrics:
 - Response Time
 - Throughput
 - Error Rate
 - CPU & Memory Usage
 
-Scenarios
+Scenarios:
 1. Login with 100 virtual users.
 2. Search products with increasing load.
 3. API `/employees` under stress (500+ requests/sec).
